@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Carousel</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+
+    <div id="myCarousel" class="carousel slide"  data-interval="false">
+         <div class="context"><img src="./images/cross-icon.png"/></div>
+          <div class="border-n"></div>
+          <div class="border-e"></div>
+          <div class="border-s"></div>
+          <div class="border-w"></div>
+      <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item main active">       
+        <img src="images/image1.jpg" alt="portada">
+      </div>
+
+      <div class="item main">
+         <header class="header">
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <a href="" class="logo"></a>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />         
+          <ul class="menu">
+            <li><a href="#item1">Item1</a></li>
+            <li><a href="#item2">Item2</a></li>
+            <li><a href="#lupa"><img src="./images/search.png"></a></li>
+          </ul>
+        </header>
+
+        <div class="item-desktop-nav">
+          <div class="text-box">
+          <p class="text-box-sup-title">This is the hero</p>
+          <p class="text-box-title">The Hero</p>
+          <p class="text-box-text">Wow, ah Red, you look great.Everthing looks great.1:24, I still got time.Oh my god. No, no not again, c`mon, c`mon.Hey.</p>
+          <div class="text-box-buttons">
+          <button type="button" class="btn btn btn-danger">Go to the future</button>
+          <button <button type="button" class="btn btn-default">Go to the past</button>
+          </div>        
+          </div>
+        </div>
+      
+        <div class="item-desktop-boxes">
+          <div class="item-desktop-boxes-unit">
+            <ul class="item-desktop-box">
+              <li>Professional DeLorean</li>
+              <li><span class="item-desktop-box-number">99</span><span class="item-desktop-box-text">month</span></li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/><span class="item-desktop-box-list">An even cooler feature</span></li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><button type="button" class="btn btn btn-danger">Get this plan now</button></li>
+              <li class="item-desktop-box-icon"><p>Learn more about this plan</p><span class="item-desktop-boxes-arrow">></span></li>
+            </ul>
+         </div>
+           <div class="item-desktop-boxes-unit">
+            <ul class="item-desktop-box">
+              <li>Professional DeLorean</li>
+              <li><span class="item-desktop-box-number">99</span><span class="item-desktop-box-text">month</span></li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/><span class="item-desktop-box-list">An even cooler feature</span></li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><button type="button" class="btn btn btn-danger">Get this plan now</button></li>
+              <li class="item-desktop-box-icon"><p>Learn more about this plan</p><span class="item-desktop-boxes-arrow">></span></li>
+            </ul>
+         </div>
+           <div class="item-desktop-boxes-unit">
+            <ul class="item-desktop-box">
+              <li>Professional DeLorean</li>
+              <li><span class="item-desktop-box-number">99</span><span class="item-desktop-box-text">month</span></li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/><span class="item-desktop-box-list">An even cooler feature</span></li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><img src="./images/icon-tick.png"/>An even cooler feature</li>
+              <li class="item-desktop-box-icon"><button type="button" class="btn btn btn-danger">Get this plan now</button></li>
+              <li class="item-desktop-box-icon"><p>Learn more about this plan</p><span class="item-desktop-boxes-arrow">></span></li>
+            </ul>
+         </div>
+      </div>
+           <div class="item-desktop-boxes-ad">
+            <div class="item-desktop-boxes-unit-ad">
+            <ul class="item-desktop-box-ad">
+              <li class="item-desktop-little-title-bold">Lorem ipsum</li>  
+              <li class="item-desktop-title-bold">Back to the future</li>         
+              <li class="item-desktop-box-icon"><button type="button" class="btn btn btn-danger">Let's go!</button></li>
+            </ul>
+            <ul class="item-desktop-box-text-ad">
+              <li class="item-desktop-text-bold">Hello, hello, anybody home? Think, McFly, think. I gotta have time to recopy it. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.<p>Lorraine, are you up there? </p><a class="item-desktop-boxes-arrow" href="#">></a></li>  
+            </ul>
+         </div>
+       </div>
+
+       <form class="item-desktop-form-group"> 
+          <label class="form-title">Suscribe</label>      
+         <div class="form-group">
+            <input class="form-input-item" type="" name="" placeholder="Email">
+            <input class="form-input-item name" type="" name="" placeholder="Name">
+         </div>
+         <div class="form-group">
+            <input  class="form-input-item psw" type="" name="" placeholder="Password">
+         </div>
+          <div class="form-group">
+            <input  class="form-input-item r-psw" type="" name="" placeholder="Repeat your password">
+         </div>
+         <div class="form-group checkItem">
+            <input  class="form-input-item" type="checkbox" name="">Remember me</>
+         </div>
+         <div class="form-group">
+            <button type="button" class="btn btn btn-default">Send</button>
+         </div>
+         <div class="form-group">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscin elit. Qusique ullamcorper dui</p>
+         </div>        
+       </form>
+
+      </div>   
+
+      </div>
+    </div>    
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+      <div class="carousel-tools">
+      <div class="comment">
+        <img class="carousel-tools-message-icon" src="images/message-square.png"/>
+        <span class="carousel-tools-text">Comment</span>
+      </div>
+      <div class="inspect">
+        <img class="carousel-tools-inspect-icon" src="images/inspect-icon.png"/>
+         <span class="carousel-tools-text">Inspect</span>
+      </div>
+      <div class="screens">
+         <img class="carousel-tools-message-screens-icon" src="images/grid.png"/>
+         <span class="carousel-tools-text">Screens(3)</span>
+      </div>
+
+  </div>
+  
+       <div id="commentForm" class="commentForm" >
+        <header class="commentFormTitle">     
+          <span class="dot"></span> 
+          <h6>Leave a Comment</h6>            
+        </header>
+        <span class="dotCounter" data-draggable>1</span>
+        <textarea class="commentFormTextArea"></textarea>
+        <button class="commentFormButton">Post</button>
+      </div>
+
+      <div class="image-access-hero">
+          <span class="image-access-close"><img src="./images/cross.png"></span>
+          <img src="./images/request-access-hero.svg"/>
+          <h1 class="image-access-title">Get pixel-perfect code in a click</h1>
+          <p class="image-access-subtitle"> To use Inspect to download assets for your developers, you need to have access to this prototype</p>
+          <button class="image-acces-button" type="">Request access</button>
+          <p class="image-access-text-link">Already a member? <span><a class="image-access-link" href="#">Sign in</a></span></p>
+      </div>
+
+     <div class="container-screens">
+       <span class="image-access-close"><img class="close-icon" src="./images/cross.png"></span>
+      <div class="container-screens-display">
+        <div class="header-container">            
+          <h2>TITLE</h2>         
+        </div>
+        <div class="screens-viewport">
+         <ul class="screens-viewport-cards">
+            <li class="screens-viewport-card"><img class="screens-viewport-img" src="./images/portada.jpg">
+              <div class="screen-card-overlay"></div>
+              <div class="screen-name-container"></div></li>
+            <li class="screens-viewport-card"><img class="screens-viewport-img" src="./images/desktop-hero.png"> <div class="screen-card-overlay"></div><div class="screen-name-container"></li>
+            <li class="screens-viewport-card"><img class="screens-viewport-img"  src="./images/thelogo.png"><div class="screen-card-overlay"></div>
+              <div class="screen-name-container"></li>          
+          </ul>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
